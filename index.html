@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthana | Frontend Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="grid-background"></div>
+
+<header class="navbar">
+    <a href="#home" class="logo">K<span>/</span>K</a>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Work</a>
+        <a href="#lab">Lab</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeBtn" class="theme-btn">☀</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+    <div class="hero-left">
+        <div class="status"><span class="status-dot"></span>Available for opportunities</div>
+        <p class="small-title">&lt; HELLO_WORLD /&gt;</p>
+        <h1>I BUILD <span>DIGITAL</span> EXPERIENCES.</h1>
+        <p class="hero-description">I'm Keerthana, a fresher Frontend Developer passionate about creating clean, responsive and interactive web experiences.</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">Explore My Work <span>↗</span></a>
+            <a href="#contact" class="outline-btn">Let's Talk</a>
+        </div>
+    </div>
+
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="terminal-dots"><span></span><span></span><span></span></div>
+            <p>keerthana@frontend-lab ~</p>
+        </div>
+        <div class="terminal-body">
+            <p><span class="green">➜</span> <span class="purple">~</span> npm run developer</p><br>
+            <p class="output">Initializing portfolio...</p>
+            <p class="success">✓ HTML loaded</p>
+            <p class="success">✓ CSS loaded</p>
+            <p class="success">✓ JavaScript loaded</p>
+            <p class="success">✓ React ready</p><br>
+            <p><span class="green">status:</span> <span id="typing"></span><span class="cursor">|</span></p><br>
+            <div class="terminal-progress"><div></div></div>
+            <p class="progress-text">frontend skills initialized</p>
+        </div>
+    </div>
+</section>
+
+<div class="marquee">
+    <div class="marquee-content">
+        <span>HTML5</span><b>✦</b><span>CSS3</span><b>✦</b><span>JAVASCRIPT</span><b>✦</b>
+        <span>REACT JS</span><b>✦</b><span>RESPONSIVE DESIGN</span><b>✦</b><span>GITHUB</span><b>✦</b>
+        <span>HTML5</span><b>✦</b><span>CSS3</span><b>✦</b><span>JAVASCRIPT</span><b>✦</b>
+        <span>REACT JS</span><b>✦</b><span>RESPONSIVE DESIGN</span><b>✦</b><span>GITHUB</span><b>✦</b>
+    </div>
+</div>
+
+<section class="section" id="about">
+    <div class="section-heading"><span>01</span><div><p>GET TO KNOW ME</p><h2>About Me</h2></div></div>
+    <div class="about-grid">
+        <div class="about-main">
+            <p class="big-text">I don't just want to write code. <span>I want to create experiences people enjoy using.</span></p>
+            <p>I am a B.E Computer Science graduate and aspiring Frontend Developer. I enjoy turning designs and ideas into responsive websites using modern web technologies.</p>
+            <p>Currently, I'm strengthening my JavaScript and React skills while building projects that solve real problems.</p>
+        </div>
+        <div class="about-cards">
+            <div class="mini-card"><span>🎓</span><p>EDUCATION</p><h3>B.E CSE</h3></div>
+            <div class="mini-card"><span>💻</span><p>ROLE</p><h3>Frontend Dev</h3></div>
+            <div class="mini-card"><span>📍</span><p>LOCATION</p><h3>India</h3></div>
+            <div class="mini-card"><span>🚀</span><p>STATUS</p><h3>Open to Work</h3></div>
+        </div>
+    </div>
+</section>
+
+<section class="section skills-section" id="skills">
+    <div class="section-heading"><span>02</span><div><p>WHAT I WORK WITH</p><h2>Technical Skills</h2></div></div>
+    <div class="skills-layout">
+        <div class="skills-list">
+            <div class="skill"><div class="skill-top"><span>HTML5</span><span>90%</span></div><div class="bar"><div style="width:90%"></div></div></div>
+            <div class="skill"><div class="skill-top"><span>CSS3</span><span>85%</span></div><div class="bar"><div style="width:85%"></div></div></div>
+            <div class="skill"><div class="skill-top"><span>JavaScript</span><span>75%</span></div><div class="bar"><div style="width:75%"></div></div></div>
+            <div class="skill"><div class="skill-top"><span>React JS</span><span>70%</span></div><div class="bar"><div style="width:70%"></div></div></div>
+            <div class="skill"><div class="skill-top"><span>Git & GitHub</span><span>70%</span></div><div class="bar"><div style="width:70%"></div></div></div>
+        </div>
+        <div class="code-card">
+            <div class="code-header"><span>skills.js</span><span>● ● ●</span></div>
+            <pre><code><span class="pink">const</span> developer = {
+
+    name: <span class="yellow">"Keerthana"</span>,
+    role: <span class="yellow">"Frontend Developer"</span>,
+
+    skills: [
+        <span class="yellow">"HTML"</span>,
+        <span class="yellow">"CSS"</span>,
+        <span class="yellow">"JavaScript"</span>,
+        <span class="yellow">"React"</span>
+    ],
+
+    learning: <span class="yellow">"Every day"</span>
+
+};</code></pre>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <div class="section-heading"><span>03</span><div><p>SELECTED WORK</p><h2>Projects</h2></div></div>
+    <div class="projects-grid">
+        <article class="project project-large">
+            <div class="project-number">01</div><div class="project-icon">🌱</div>
+            <div class="project-content"><p>AI / WEB APPLICATION</p><h3>Plant Disease Detection</h3><p>A smart web application designed to identify plant diseases and provide treatment recommendations.</p>
+            <div class="tags"><span>React</span><span>JavaScript</span><span>Flask</span><span>AI</span></div><a href="#" class="project-link">View Project ↗</a></div>
+        </article>
+        <article class="project">
+            <div class="project-number">02</div><div class="project-icon">🎓</div>
+            <div class="project-content"><p>WEB APPLICATION</p><h3>Student Management</h3><p>A clean interface for managing student records and information.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#" class="project-link">View Project ↗</a></div>
+        </article>
+        <article class="project">
+            <div class="project-number">03</div><div class="project-icon">🖼️</div>
+            <div class="project-content"><p>E-COMMERCE</p><h3>PS Gallery</h3><p>Responsive customized photo frame showcase website.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#" class="project-link">View Project ↗</a></div>
+        </article>
+    </div>
+</section>
+
+<section class="section lab-section" id="lab">
+    <div class="section-heading"><span>04</span><div><p>SMALL EXPERIMENTS</p><h2>Frontend Lab</h2></div></div>
+    <p class="lab-intro">Small projects where I experiment with JavaScript, UI design and frontend interactions.</p>
+    <div class="lab-grid">
+        <a href="#" class="lab-card"><span>01</span><div><h3>Calculator</h3><p>JavaScript Logic</p></div><b>↗</b></a>
+        <a href="#" class="lab-card"><span>02</span><div><h3>Quiz App</h3><p>DOM Manipulation</p></div><b>↗</b></a>
+        <a href="#" class="lab-card"><span>03</span><div><h3>To-Do App</h3><p>Local Storage</p></div><b>↗</b></a>
+        <a href="#" class="lab-card"><span>04</span><div><h3>Weather App</h3><p>API Integration</p></div><b>↗</b></a>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-inner">
+        <p class="small-title">05 / CONTACT</p>
+        <h2>LET'S BUILD <span>SOMETHING.</span></h2>
+        <p>I'm currently looking for my first opportunity as a Frontend Developer.</p>
+        <a href="mailto:yourmail@gmail.com" class="contact-button">Start a conversation ↗</a>
+    </div>
+</section>
+</main>
+
+<footer>
+    <div>K<span>/</span>K</div>
+    <p>Designed & Built by Keerthana</p>
+    <p>© 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
